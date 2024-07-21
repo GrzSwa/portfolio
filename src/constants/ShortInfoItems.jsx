@@ -13,7 +13,7 @@ challenges and opportunities for growth. Throughout my education, I have \
 been involved in the IT field, from high school where I earned my IT \
 technician degree, to my studies.'
 
-export const CV = 'src/assets/CV.pdf'
+export const CV = '/src/assets/CV.pdf'
 
 export const SOCIAL_MEDIA = {
     "github":'https://github.com/GrzSwa',
