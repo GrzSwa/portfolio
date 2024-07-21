@@ -1,33 +1,41 @@
 import picture from '/src/assets/picture.jpg'
-import picture2 from '/src/assets/picture.jpg'
+import dos from '/src/assets/dos.jpg'
+import flet_projects from '/src/assets/flet_project.jpg'
+import ivi from '/src/assets/ivi.png'
 
 export const PROJECTS = [
     {
         "name":"DoSDefenderAI",
-        "text":"No ipsum ut consetetur at. Illum erat dolores sed ipsum clita eirmod invidunt. Sea eirmod facilisis nam sea molestie duo qui option tincidunt eos.No ipsum ut consetetur at. Illum erat dolores sed ipsum clita eirmod invidunt. Sea eirmod facilisis nam sea molestie duo qui option tincidunt eos.No ipsum ut consetetur at. Illum erat dolores sed ipsum clita eirmod invidunt. Sea eirmod facilisis nam sea molestie duo qui option tincidunt eos.No ipsum ut consetetur at. Illum erat dolores sed ipsum clita eirmod invidunt. Sea eirmod facilisis nam sea molestie duo qui option tincidunt eos.No ipsum ut consetetur at. Illum erat dolores sed ipsum clita eirmod invidunt. Sea eirmod facilisis nam sea molestie duo qui option tincidunt eos.No ipsum ut consetetur at.",
-        "tags":"Flet - PyShark - TensorFlow",
-        "img": {picture},
-        "git":"#"
+        "text":"This project is my master's thesis , where the goal of the work was to design and implement an application using artificial intelligence to protect networks from DoS attacks. The work focused on a comprehensive approach to the problem of DoS-type cyber attacks, a review of the methods used to prevent such threats using artificial intelligence, and the design and implementation of a \
+                of a dedicated application. The application includes a trained model on a sample dataset containing the most common forms of DoS attack. The application has software that serves as a packet analyzer to collect information about network traffic, which is subjected to classification by artificial intelligence. To visualize the operation of the program, an intuitive graphical interface is \
+                responsible, containing the most relevant elements such as, visualization and statistics on network traffic. In order to complete the project, technologies were used to meet all design objectives. For this purpose, TensorFlow technology and Scikit-learn library were used. Using PyShark technology, an embedded packet analyzer was implemented in the application, which will continuously \
+                capture packets and pass them to the module dealing with classification and to the user interface module, which was implemented using the Flet framework and visualizes the most necessary data on network traffic and the operation of the classifier.",
+        "tags":"Flet - PyShark - TensorFlow - Scikit-learn",
+        "img": {dos},
+        "git":"https://github.com/GrzSwa/DoSDefenderAI"
     },
     {
         "name":"Flet_projects",
-        "text":"No ipsum ut consetetur at. Illum erat dolores sed ipsum clita eirmod invidunt. Sea eirmod facilisis nam sea molestie duo qui option tincidunt eos.",
-        "tags":"Flet - PyShark - TensorFlow",
-        "img": {picture},
-        "git":"#"
+        "text":"Diam duo takimata rebum stet consetetur exerci aliquyam consequat sadipscing consetetur in eirmod. Minim stet sea laoreet tempor accusam esse ea eos sed nostrud kasd gubergren dolores et tation feugiat. Sed sit diam eos at nostrud vero ipsum sanctus consequat suscipit dolore amet diam nonumy erat gubergren. Consetetur kasd est sadipscing ea voluptua delenit. Amet no dolores iriure diam et. Takimata accusam hendrerit eos diam nonumy. Luptatum praesent et ipsum sed diam no adipiscing lobortis velit diam dignissim praesent stet et. Kasd rebum sea amet et sit ipsum eirmod diam dolor blandit amet et illum stet ut hendrerit no. Stet sed consequat labore accumsan hendrerit dolor dolor sed invidunt. Diam consequat accumsan labore lorem diam et consetetur autem dolores et luptatum stet eos sed ad no diam. Qui diam eos nulla. Est kasd feugiat justo euismod. Vel exerci dolor diam vel magna. Diam dolore ipsum invidunt ea eirmod labore et dolore sit dolore labore at elitr te ipsum consequat labore. Sanctus sed ut assum sit stet consequat dolore ipsum laoreet aliquip ut eros. Elitr est amet facer et consequat nostrud magna accumsan erat sea ipsum. Option sed et. \
+        Consetetur dolore voluptua sadipscing accusam duis ipsum diam clita hendrerit aliquyam rebum. Blandit dignissim sea nobis. Wisi nulla est aliquip diam sea est diam dolore dolor erat eirmod kasd magna lorem diam sed. Consequat et labore ex labore et vel dolores amet nonumy voluptua. Rebum voluptua ipsum in laoreet eros gubergren vero elitr duo eirmod aliquip et. Ipsum at dolor illum gubergren praesent dolore elitr consetetur invidunt ipsum ea elitr sit et eos. Gubergren et sanctus eos ipsum nonumy et facer at magna dolores. Magna sed ut duo accusam voluptua voluptua accusam ut ut assum stet eirmod et nulla et. Dolor sea est ea ullamcorper sed justo sed. Amet consequat diam sed ex odio dolor accusam aliquyam ut ut minim eirmod. Consetetur ipsum kasd ullamcorper. Et consequat tempor facilisis ea aliquyam diam et stet invidunt vulputate. Et at et gubergren. Consetetur diam qui dolores lorem dolores tempor takimata lorem amet aliquyam erat gubergren kasd duis ipsum sanctus vel.",
+        "tags":"Flet - Python",
+        "img": {flet_projects},
+        "git":"https://github.com/GrzSwa/Flet_projects"
     },
     {
-        "name":"Aplikacja Pogodowa",
-        "text":"No ipsum ut consetetur at. Illum erat dolores sed ipsum clita eirmod invidunt. Sea eirmod facilisis nam sea molestie duo qui option tincidunt eos.",
-        "tags":"Flet - PyShark - TensorFlow",
-        "img": {picture2},
-        "git":"#"
+        "name":"Aplikacja pogodowa",
+        "text":"Diam duo takimata rebum stet consetetur exerci aliquyam consequat sadipscing consetetur in eirmod. Minim stet sea laoreet tempor accusam esse ea eos sed nostrud kasd gubergren dolores et tation feugiat. Sed sit diam eos at nostrud vero ipsum sanctus consequat suscipit dolore amet diam nonumy erat gubergren. Consetetur kasd est sadipscing ea voluptua delenit. Amet no dolores iriure diam et. Takimata accusam hendrerit eos diam nonumy. Luptatum praesent et ipsum sed diam no adipiscing lobortis velit diam dignissim praesent stet et. Kasd rebum sea amet et sit ipsum eirmod diam dolor blandit amet et illum stet ut hendrerit no. Stet sed consequat labore accumsan hendrerit dolor dolor sed invidunt. Diam consequat accumsan labore lorem diam et consetetur autem dolores et luptatum stet eos sed ad no diam. Qui diam eos nulla. Est kasd feugiat justo euismod. Vel exerci dolor diam vel magna. Diam dolore ipsum invidunt ea eirmod labore et dolore sit dolore labore at elitr te ipsum consequat labore. Sanctus sed ut assum sit stet consequat dolore ipsum laoreet aliquip ut eros. Elitr est amet facer et consequat nostrud magna accumsan erat sea ipsum. Option sed et. \
+        Consetetur dolore voluptua sadipscing accusam duis ipsum diam clita hendrerit aliquyam rebum. Blandit dignissim sea nobis. Wisi nulla est aliquip diam sea est diam dolore dolor erat eirmod kasd magna lorem diam sed. Consequat et labore ex labore et vel dolores amet nonumy voluptua. Rebum voluptua ipsum in laoreet eros gubergren vero elitr duo eirmod aliquip et. Ipsum at dolor illum gubergren praesent dolore elitr consetetur invidunt ipsum ea elitr sit et eos. Gubergren et sanctus eos ipsum nonumy et facer at magna dolores. Magna sed ut duo accusam voluptua voluptua accusam ut ut assum stet eirmod et nulla et. Dolor sea est ea ullamcorper sed justo sed. Amet consequat diam sed ex odio dolor accusam aliquyam ut ut minim eirmod. Consetetur ipsum kasd ullamcorper. Et consequat tempor facilisis ea aliquyam diam et stet invidunt vulputate. Et at et gubergren. Consetetur diam qui dolores lorem dolores tempor takimata lorem amet aliquyam erat gubergren kasd duis ipsum sanctus vel.",
+        "tags":"Flutter - FastAPI",
+        "img": {picture},
+        "git":"https://github.com/GrzSwa/AplikacjaPogodowa"
     },
     {
         "name":"Ivi",
-        "text":"No ipsum ut consetetur at. Illum erat dolores sed ipsum clita eirmod invidunt. Sea eirmod facilisis nam sea molestie duo qui option tincidunt eos.",
-        "tags":"Flet - PyShark - TensorFlow",
-        "img": {picture2},
-        "git":"#"
+        "text":"Diam duo takimata rebum stet consetetur exerci aliquyam consequat sadipscing consetetur in eirmod. Minim stet sea laoreet tempor accusam esse ea eos sed nostrud kasd gubergren dolores et tation feugiat. Sed sit diam eos at nostrud vero ipsum sanctus consequat suscipit dolore amet diam nonumy erat gubergren. Consetetur kasd est sadipscing ea voluptua delenit. Amet no dolores iriure diam et. Takimata accusam hendrerit eos diam nonumy. Luptatum praesent et ipsum sed diam no adipiscing lobortis velit diam dignissim praesent stet et. Kasd rebum sea amet et sit ipsum eirmod diam dolor blandit amet et illum stet ut hendrerit no. Stet sed consequat labore accumsan hendrerit dolor dolor sed invidunt. Diam consequat accumsan labore lorem diam et consetetur autem dolores et luptatum stet eos sed ad no diam. Qui diam eos nulla. Est kasd feugiat justo euismod. Vel exerci dolor diam vel magna. Diam dolore ipsum invidunt ea eirmod labore et dolore sit dolore labore at elitr te ipsum consequat labore. Sanctus sed ut assum sit stet consequat dolore ipsum laoreet aliquip ut eros. Elitr est amet facer et consequat nostrud magna accumsan erat sea ipsum. Option sed et. \
+        Consetetur dolore voluptua sadipscing accusam duis ipsum diam clita hendrerit aliquyam rebum. Blandit dignissim sea nobis. Wisi nulla est aliquip diam sea est diam dolore dolor erat eirmod kasd magna lorem diam sed. Consequat et labore ex labore et vel dolores amet nonumy voluptua. Rebum voluptua ipsum in laoreet eros gubergren vero elitr duo eirmod aliquip et. Ipsum at dolor illum gubergren praesent dolore elitr consetetur invidunt ipsum ea elitr sit et eos. Gubergren et sanctus eos ipsum nonumy et facer at magna dolores. Magna sed ut duo accusam voluptua voluptua accusam ut ut assum stet eirmod et nulla et. Dolor sea est ea ullamcorper sed justo sed. Amet consequat diam sed ex odio dolor accusam aliquyam ut ut minim eirmod. Consetetur ipsum kasd ullamcorper. Et consequat tempor facilisis ea aliquyam diam et stet invidunt vulputate. Et at et gubergren. Consetetur diam qui dolores lorem dolores tempor takimata lorem amet aliquyam erat gubergren kasd duis ipsum sanctus vel.",
+        "tags":"React Native - Firebase",
+        "img": {ivi},
+        "git":"https://github.com/GrzSwa/Ivi"
     },
 ]

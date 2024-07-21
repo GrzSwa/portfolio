@@ -15,7 +15,7 @@ export function DialogProject({show, handler, content }) {
             }}>
             <DialogHeader className='-m-4'>
                 <div className='w-full h-80'>
-                    <img src={content.img} className="object-cover w-full h-full"/>
+                    <img src={Object.values(content.img)[0]} className="w-full h-full"/>
                 </div>
             </DialogHeader>
             <DialogBody className="bg-[#1c1b22]">
@@ -26,7 +26,7 @@ export function DialogProject({show, handler, content }) {
                     {content.tags}
                 </Typography> 
                 <br />
-                <Typography variant='text' className='text-lg font-ubuntu-mono'>
+                <Typography className='text-lg font-ubuntu-mono'>
                     {content.text}
                 </Typography>
                 <br />        
@@ -34,10 +34,12 @@ export function DialogProject({show, handler, content }) {
                 <Typography variant="h4" className="text-white font-ubuntu-mono tracking-wider">
                     Project Link
                 </Typography>
-                <Button variant="text" className="flex items-center gap-2 text-white/70 p-0 font-ubuntu-mono text-sm pt-2 hover:text-deep-orange-800">
-                    <FontAwesomeIcon icon={faGithub}/>
-                    Source Code
-                </Button>        
+                <a href={content.git}>
+                    <Button variant="text" className="flex items-center gap-2 text-white/70 p-0 font-ubuntu-mono text-sm pt-2 hover:text-deep-orange-800">
+                        <FontAwesomeIcon icon={faGithub}/>
+                        Source Code
+                    </Button>
+                </a>        
             </DialogBody>
         </Dialog>
         

@@ -82,6 +82,7 @@ export function Buttons({animation}){
             {Object.entries(SOCIAL_MEDIA).map(([key, value], index) => (
                 SOCIAL_MEDIA_SVG[key] ? (
                     <motion.a 
+                      key={index}
                       href={value}
                       variants={animation(1+((index+1)*0.2))}
                       initial="hidden"

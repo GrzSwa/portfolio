@@ -14,9 +14,31 @@ export function NavBar(props) {
   useEffect(() => {
     window.addEventListener(
       "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false),
+      () =>{ 
+        window.innerWidth >= 960 && setOpenNav(false)
+      },
     );
 
+    window.addEventListener(
+      "scroll",
+      () => {
+          if(window.scrollY >= props.sections[0]["ref"].current.offsetTop && window.scrollY < props.sections[1]["ref"].current.offsetTop - 200){
+            setActiveSection(0)
+          }
+          else if(window.scrollY >= props.sections[1]["ref"].current.offsetTop - 200  && window.scrollY < props.sections[2]["ref"].current.offsetTop - 200 ){
+            setActiveSection(1)
+          }
+          else if(window.scrollY >= props.sections[2]["ref"].current.offsetTop - 200  && window.scrollY < props.sections[3]["ref"].current.offsetTop - 200 ){
+            setActiveSection(2)
+          }
+          else if(window.scrollY >= props.sections[3]["ref"].current.offsetTop - 200 ){
+            setActiveSection(3)
+          }
+          if((window.scrollY + window.innerHeight * 0.5) > props.sections[4]["ref"].current.offsetTop){
+            setActiveSection(4)
+          }
+      }
+    );
     
 
   }, []);

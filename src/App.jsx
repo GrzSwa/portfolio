@@ -45,7 +45,7 @@ function App() {
       "ref":projects 
     },
     {
-      "id":3,
+      "id":4,
       "content":<Contact />,  
       "ref":contact 
     },
@@ -62,8 +62,8 @@ function App() {
         </motion.nav>
 
         <main className='xl:pt-0 pt-12'>
-            {sectionList.map((item)=>(
-                <div ref={item.ref} className='flex flex-col xl:h-screen w-full xl:mt-0 pt-16 xl:px-40 px-5'>
+            {sectionList.map((item, index)=>(
+                <div key={index} ref={item.ref} className='flex flex-col xl:h-screen w-full xl:mt-0 pt-16 xl:px-40 px-5'>
                   {item.content}
                 </div>
             ))}

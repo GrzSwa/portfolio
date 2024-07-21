@@ -11,7 +11,7 @@ export function ProjectCard(props) {
         <div className="h-[32rem]">
             <div className=" h-[50%]">
                 <div className="w-full h-full bg-[#232229] rounded-xl flex justify-center items-center pt-10">
-                    <img src={Object.values(props.content.img)[0]} className="object-cover w-[90%] h-full rounded-t-xl hover:w-[95%] cursor-pointer"  onClick={handleOpen} />
+                    <img src={Object.values(props.content.img)[0]} className="object-cover object-top w-[90%] h-full rounded-t-xl hover:w-[95%] cursor-pointer"  onClick={handleOpen} />
                 </div>
             </div>
             <div className=" h-[8%] flex flex-row items-center pr-1 mt-3">
@@ -19,9 +19,11 @@ export function ProjectCard(props) {
                     {props.content.name}
                 </Typography>
                 <div className="bg-white/40 h-[2px] mx-2 grow"></div>
-                <IconButton variant="text" className='text-2xl text-white hover:text-deep-orange-800'>
-                    <FontAwesomeIcon icon={faGithub}/>
-                </IconButton>
+                <a href={props.content.git}>
+                    <IconButton variant="text" className='text-2xl text-white hover:text-deep-orange-800'>
+                        <FontAwesomeIcon icon={faGithub}/>
+                    </IconButton>
+                </a>
             </div>
             <div className="h-[8%] flex items-center">
                 <Typography  className='text-deep-orange-800 text-lg font-ubuntu-mono'>
