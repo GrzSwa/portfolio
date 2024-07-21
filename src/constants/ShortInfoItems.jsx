@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn, faTelegram} from '@fortawesome/free-brands-svg-icons'
-
+import CV_PDF from '/src/assets/CV.pdf'
 export const PROFESSION = 'Software Developer'
 
 export const NAME = 'Grzegorz Swajda'
@@ -13,7 +13,7 @@ challenges and opportunities for growth. Throughout my education, I have \
 been involved in the IT field, from high school where I earned my IT \
 technician degree, to my studies.'
 
-export const CV = '/portfolio/src/assets/CV.pdf'
+export const CV = CV_PDF
 
 export const SOCIAL_MEDIA = {
     "github":'https://github.com/GrzSwa',

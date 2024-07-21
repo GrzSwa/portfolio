@@ -11,7 +11,7 @@ export function ProjectCard(props) {
         <div className="h-[32rem]">
             <div className=" h-[50%]">
                 <div className="w-full h-full bg-[#232229] rounded-xl flex justify-center items-center pt-10">
-                    <img src={props.content.img} className="object-cover w-[90%] h-full rounded-t-xl hover:w-[95%] cursor-pointer"  onClick={handleOpen} />
+                    <img src={Object.values(props.content.img)[0]} className="object-cover w-[90%] h-full rounded-t-xl hover:w-[95%] cursor-pointer"  onClick={handleOpen} />
                 </div>
             </div>
             <div className=" h-[8%] flex flex-row items-center pr-1 mt-3">
