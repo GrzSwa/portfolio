@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Typography, Input, Select, Option, Textarea, Button, Alert } from "@material-tailwind/react";
 import { SERVICES_LIST } from '../constants/ServicesItems'
+import { config } from '../config.js';
 
 export function ContactForm(){
     const form = useRef();
@@ -11,10 +12,10 @@ export function ContactForm(){
         e.preventDefault();
 
         emailjs.sendForm(
-            import.meta.env.VITE_SERVICE_ID, 
-            import.meta.env.VITE_TEMPLATE_ID, 
-            form.current, 
-            {publicKey: import.meta.env.VITE_PUBLIC_KEY,}
+            config.serviceId,
+            config.templateId,
+            form.current,
+            config.publicKey
         ).then(
             () => {
                 setOpen(true);

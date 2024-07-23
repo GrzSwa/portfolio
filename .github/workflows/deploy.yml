@@ -18,14 +18,14 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm install
 
       - name: Build project
         env:
-          VITE_SERVICE_ID: ${{secrets.SERVICE_ID}}
-          VITE_TEMPLATE_ID: ${{secrets.TEMPLATE_ID}}
-          VITE_PUBLIC_KEY: ${{secrets.PUBLIC_KEY}}
-          VITE_PHONE_NUMBER: ${{secrets.PHONE_NUMBER}}
+          VITE_SERVICE_ID: ${{ secrets.SERVICE_ID }}
+          VITE_TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
+          VITE_PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
+          VITE_PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
         run: npm run build
 
       - name: Upload production-ready build files
