@@ -26,6 +26,7 @@ export function ContactForm(){
         );
     };
 
+
     return(
         <form 
             ref={form} 
@@ -50,6 +51,7 @@ export function ContactForm(){
                         className="border-none text-white/70 shadow-lg placeholder:text-white/70 placeholder:opacity-100 font-ubuntu-mono"
                         labelProps={{ className: "hidden" }}
                         containerProps={{ className: "bg-[#1c1b22]" }}
+                        required
                     />
                 </div>
                 <div className="xl:col-span-1 lg:col-span-1 col-span-2">
@@ -70,6 +72,7 @@ export function ContactForm(){
                         className="border-none text-white/70 shadow-lg placeholder:text-white/70 placeholder:opacity-100 font-ubuntu-mono"
                         labelProps={{ className: "hidden" }}
                         containerProps={{ className: "bg-[#1c1b22]" }}
+                        required
                     />
                 </div>
                 <div className="xl:col-span-1 lg:col-span-1 col-span-2">
@@ -80,18 +83,18 @@ export function ContactForm(){
                         className="border-none text-white/70 shadow-lg placeholder:text-white/70 placeholder:opacity-100 font-ubuntu-mono "
                         labelProps={{ className: "hidden" }}
                         containerProps={{ className: "bg-[#1c1b22]" }}
+                        required
                     />
                 </div>
                 <div className="col-span-2">
                     <Select
-                        name='service' 
                         label="Select a service"
                         className="border-none text-white/70 font-ubuntu-mono"
                         containerProps={{ className: "bg-[#1c1b22]" }}
                         labelProps={{className: "text-white/70"}}
                     >
                             {SERVICES_LIST.map((item,index)=>(
-                                <Option key={index} value={item.title}>{item.title}</Option>
+                                <Option name='service' key={index} value={item.title}>{item.title}</Option>
                             ))}
                     </Select>
                 </div>
@@ -102,6 +105,7 @@ export function ContactForm(){
                         className="border-none text-white/70 shadow-lg placeholder:text-white/70 placeholder:opacity-100 font-ubuntu-mono "
                         containerProps={{ className: "bg-[#1c1b22]" }}
                         labelProps={{className: "text-white/70"}}
+                        required
                     />
                 </div>
             </div>

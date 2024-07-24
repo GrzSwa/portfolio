@@ -70,10 +70,7 @@ function App() {
         </main>
         <footer className='h-20 2xl:mt-0 xl:mt-20 mt-5'>
           <p className='text-white/70 flex h-full justify-center items-center'>
-            Interface inspired by the sample portfolio shown on youtube whose link is&nbsp;
-            <span >
-              <a href='https://www.youtube.com/watch?v=dImgZ_AH7uA' className='text-deep-orange-800'>here.</a>
-            </span>
+            Interface inspired by the sample portfolio shown on youtube whose link is&nbsp;<a href='https://www.youtube.com/watch?v=dImgZ_AH7uA' className='text-deep-orange-800'>here.</a>
             &nbsp;This is only an inspiration, the entire implementation was written from scratch by myself.
           </p>
         </footer>
