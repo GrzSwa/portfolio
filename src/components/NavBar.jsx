@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Navbar, MobileNav, Typography, IconButton } from "@material-tailwind/react"
 import { navItemsList } from '../constants/NavItems'
+import logo from '/src/assets/logo.png'
 
 export function NavBar(props) {
   const [openNav, setOpenNav] = useState(false);
@@ -48,9 +49,10 @@ export function NavBar(props) {
       <Navbar className="sticky top-0 z-100 h-max max-w-full rounded-none bg-[#1c1b22] backdrop-blur-sm border-none shadow-none xl:px-44 px-10">
         <div className='flex felx-row items-center justify-between text-white'>
           <Typography
-            className="mr-4 py-1.5 font-ubuntu-mono text-2xl"
+            className="mr-4 py-1.5 font-ubuntu-mono text-xl flex flex-row justify-center items-center"
           >
-            GS
+            <img src={logo} width={30}/>
+            Grzegorz<span className='text-deep-orange-800'>.</span>S
           </Typography>
 
           <div className="flex items-center gap-4">
