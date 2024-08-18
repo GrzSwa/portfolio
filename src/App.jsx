@@ -30,13 +30,13 @@ function App() {
     <DataProvider>
       <div className={`${darkMode && "dark"}`}>
         <main className="m-0 p-0  bg-background-secondary dark:bg-background-secondary-dark font-roboto">
-          <Router>
+          <Router basename="/portfolio/">
             <NavBar
               sectionId={SECTION_ID}
               onDarkMode={{ toggleDarkMode, darkMode }}
             />
             <Routes>
-              <Route path="/portfolio" element={sections} />
+              <Route path="*" element={sections} />
             </Routes>
           </Router>
         </main>
