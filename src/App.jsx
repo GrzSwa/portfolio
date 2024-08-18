@@ -36,7 +36,7 @@ function App() {
               onDarkMode={{ toggleDarkMode, darkMode }}
             />
             <Routes>
-              <Route path="/" element={sections} />
+              <Route path="/portfolio" element={sections} />
             </Routes>
           </Router>
         </main>
