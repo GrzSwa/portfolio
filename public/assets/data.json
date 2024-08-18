@@ -7,16 +7,16 @@
       {
         "name": "Github",
         "url": "https://github.com/GrzSwa",
-        "icon": "/portfolio/assets/icons/github.svg"
+        "icon": "/portfolio//portfolio/src/assets/icons/github.svg"
       },
       {
         "name": "Linkedin",
         "url": "https://www.linkedin.com/in/grzegorz-swajda-18920730b/",
-        "icon": "/portfolio/assets/icons/linkedin_rounded.svg"
+        "icon": "/portfolio/src/assets/icons/linkedin_rounded.svg"
       }
     ],
-    "avatar": "/portfolio/assets/avatar.png",
-    "resume": "/portfolio/assets/CV.pdf"
+    "avatar": "/portfolio/src/assets/avatar.png",
+    "resume": "/portfolio/src/assets/CV.pdf"
   },
   "About": {
     "aboutMeText": "Hi, I'm Grzegorz. I am an ambitious and determined person with a passion for programming, artificial intelligence and continuous improvement. I have developed my skills through working on student projects, my own initiatives and courses. Student projects have taught me how to analyse problems, plan and effectively implement solutions, which has strengthened my analytical skills. Through my own projects, I have learned about different technologies and approaches, which demonstrates my creativity and innovation. Working independently on projects has taught me effective time management, prioritisation and independent problem solving. I am flexible and quick to adopt new technologies, allowing me to adapt to changing project requirements. I developed my collaboration and communication skills in project groups where I shared my knowledge with others. I am constantly expanding my horizons by learning new programming languages and technologies, with a particular focus on artificial intelligence and cyber security, which demonstrates my desire for continuous development. I treat every task with full commitment and responsibility, and programming is more than just a skill for me - it is my passion, which I am constantly developing.",
@@ -36,59 +36,59 @@
     "skills": [
       {
         "label": "Python",
-        "icon": "/portfolio/assets/icons/python.svg"
+        "icon": "/portfolio/src/assets/icons/python.svg"
       },
       {
         "label": "React",
-        "icon": "/portfolio/assets/icons/react.svg"
+        "icon": "/portfolio/src/assets/icons/react.svg"
       },
       {
         "label": "Flutter",
-        "icon": "/portfolio/assets/icons/flutter.svg"
+        "icon": "/portfolio/src/assets/icons/flutter.svg"
       },
       {
         "label": "Tailwind CSS",
-        "icon": "/portfolio/assets/icons/tailwind-css.svg"
+        "icon": "/portfolio/src/assets/icons/tailwind-css.svg"
       },
       {
         "label": "Flet",
-        "icon": "/portfolio/assets/icons/flet.svg"
+        "icon": "/portfolio/src/assets/icons/flet.svg"
       },
       {
         "label": "FastAPI",
-        "icon": "/portfolio/assets/icons/fastAPI.svg"
+        "icon": "/portfolio/src/assets/icons/fastAPI.svg"
       },
       {
         "label": "Java",
-        "icon": "/portfolio/assets/icons/java.svg"
+        "icon": "/portfolio/src/assets/icons/java.svg"
       },
       {
         "label": "C",
-        "icon": "/portfolio/assets/icons/c.svg"
+        "icon": "/portfolio/src/assets/icons/c.svg"
       },
       {
         "label": "C++",
-        "icon": "/portfolio/assets/icons/c_plus_plus.svg"
+        "icon": "/portfolio/src/assets/icons/c_plus_plus.svg"
       },
       {
         "label": "Postgres",
-        "icon": "/portfolio/assets/icons/postgres.svg"
+        "icon": "/portfolio/src/assets/icons/postgres.svg"
       },
       {
         "label": "GitHub",
-        "icon": "/portfolio/assets/icons/github.svg"
+        "icon": "/portfolio/src/assets/icons/github.svg"
       },
       {
         "label": "Database",
-        "icon": "/portfolio/assets/icons/database.svg"
+        "icon": "/portfolio/src/assets/icons/database.svg"
       },
       {
         "label": "Cybersecurity",
-        "icon": "/portfolio/assets/icons/cybersecurity.svg"
+        "icon": "/portfolio/src/assets/icons/cybersecurity.svg"
       },
       {
         "label": "Artificial Intelligence",
-        "icon": "/portfolio/assets/icons/ai.svg"
+        "icon": "/portfolio/src/assets/icons/ai.svg"
       }
     ],
     "certificates": [
@@ -133,27 +133,27 @@
     "services": [
       {
         "title": "Frontend Developer",
-        "icon": "/portfolio/assets/icons/coding_white.svg",
+        "icon": "/portfolio/src/assets/icons/coding_white.svg",
         "text": "I am an intermediate web application developer with solid experience in developing modern web applications. I specialize in using React and Flutter, which allows me to build dynamic and responsive applications for both web and mobile platforms. My knowledge of Tailwind CSS and CSS itself enables me to effectively create aesthetically pleasing and functional user interfaces that conform to specific requirements. I am constantly developing my skills that I will be able to use to create innovative web applications."
       },
       {
         "title": "Mobile Developer",
-        "icon": "/portfolio/assets/icons/android_white.svg",
+        "icon": "/portfolio/src/assets/icons/android_white.svg",
         "text": "I am an intermediate mobile application developer for Android and iOS platforms. I specialize in native languages such as React Native and Flutter, which allows me to build efficient and visually appealing mobile applications. Thanks to my knowledge of mobile device emulators such as Android Studio, I can effectively test and debug applications, which ensures their high quality and reliability."
       },
       {
         "title": "Python Developer",
-        "icon": "/portfolio/assets/icons/python_white.svg",
+        "icon": "/portfolio/src/assets/icons/python_white.svg",
         "text": "I am an intermediate Python language developer with extensive experience in developing various projects based on this technology. Over the years of working with Python, I have gained extensive knowledge and practical skills in using this particular language and have learned several popular frameworks such as tensorFlow, Pandas, Flute, etc. I can also use this language to develop backend applications using FastAPI and connect it to any database. I am very quick to learn new libraries, frameworks that use this language."
       },
       {
         "title": "Cybersecurity specialist",
-        "icon": "/portfolio/assets/icons/incognito_white.svg",
+        "icon": "/portfolio/src/assets/icons/incognito_white.svg",
         "text": "I am a cybersecurity specialist with expertise in protecting systems and data from threats. I am familiar with basic methodologies in the field of cybersecurity, such as OWASP, the most popular vulnerabilities, ways to secure, etc. My knowledge includes both defensive and offensive programming concepts, I have basic knowledge in performing penetration testing. I am constantly developing my skills and knowledge and participate in CTF tasks as a hobby."
       },
       {
         "title": "AI Developer",
-        "icon": "/portfolio/assets/icons/ai_white.svg",
+        "icon": "/portfolio/src/assets/icons/ai_white.svg",
         "text": "I am an AI programmer with basic knowledge of artificial intelligence, backed by IBM certifications in the field. I have hands-on skills in using machine learning libraries such as TensorFlow and scikit-learn, which allows me to create advanced models and algorithms. My experience includes working with various data types and problems, including classification, regression and data analysis. With a solid theoretical and practical foundation, I can effectively implement AI solutions."
       }
     ]
@@ -209,7 +209,7 @@
         "name": "DoSDefenderAI",
         "text": "This project is my master's thesis , where the goal of the work was to design and implement an application using artificial intelligence to protect networks from DoS attacks. The work focused on a comprehensive approach to the problem of DoS-type cyber attacks, a review of the methods used to prevent such threats using artificial intelligence, and the design and implementation of a of a dedicated application. The application includes a trained model on a sample dataset containing the most common forms of DoS attack. The application has software that serves as a packet analyzer to collect information about network traffic, which is subjected to classification by artificial intelligence. To visualize the operation of the program, an intuitive graphical interface is responsible, containing the most relevant elements such as, visualization and statistics on network traffic. In order to complete the project, technologies were used to meet all design objectives. For this purpose, TensorFlow technology and Scikit-learn library were used. Using PyShark technology, an embedded packet analyzer was implemented in the application, which will continuously capture packets and pass them to the module dealing with classification and to the user interface module, which was implemented using the Flet framework and visualizes the most necessary data on network traffic and the operation of the classifier.",
         "chipList": ["Flet", "PyShark", "TensorFlow", "SkLearn"],
-        "img": "/portfolio/assets/projects/dos.jpg",
+        "img": "/portfolio/src/assets/projects/dos.jpg",
         "git": "https://github.com/GrzSwa/DoSDefenderAI",
         "live": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       },
@@ -217,7 +217,7 @@
         "name": "Flet_projects",
         "text": "This is the project that started my adventure with the flet framework. The project consisted of creating an application widget to play songs from a playlist from the youtube platform. The framework used was flet, which is an open source framework that allows you to create cross-platform applications based on the Dart language and the Flutter framework. The project includes a fully functional application in which the user pastes a link to a playlist from the youtube platform and after waiting a few moments, the first item from the playlist is played. The user can skip to the next song, or back the song using standard media action buttons. The project assumes three possible looks for the widget. A standard appearance otherwise called horizon appearance, where the longer side of the widget is on the x-axis. Another appearance is the so-called vertical appearance, where the longer side of the widget is on the y-axis. The third look is very minimalistic, with no song thumbnail or song progress bar, only action buttons, paste link and a settings button. Of the settings the application offers are: change the appearance of the widget, set transparency, color and set the option to always display the widget above other applications. This project was created on my own initiative in order to improve the comfort of working on, for example, a laptop for people what like to listen to music while working. It aims to efficiently change music in the appropriate widget without having to switch between applications or search for the right tab in the browser, which will ensure that the user does not fall out of the rhythm of work. It is a functional project, but in constant development. Future plans are to add another streaming platform, e.g. Spotify, SoundCloud.",
         "chipList": ["Flet", "Python"],
-        "img": "/portfolio/assets/projects/flet_project.jpg",
+        "img": "/portfolio/src/assets/projects/flet_project.jpg",
         "git": "https://github.com/GrzSwa/Flet_projects",
         "live": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       },
@@ -225,7 +225,7 @@
         "name": "Aplikacja pogodowa",
         "text": "This is a student project for credit in a course called Mobile Application Security. The project consisted of developing a mobile application that would be secure against unsecured communication attacks, which are ranked number 5 on the OWASP Mobile Top 10 list. A weather application was developed to demonstrate protection against these attacks. The app sent its location to a server, which was implemented for the project using FastAPI, in order to receive weather information from an external API. For security purposes, the application used a key exchange mechanism with the server to encrypt communications and protect against MITM attacks. The app was written entirely in Flutter and is a clone of the popular weather app, the default installed on android systems. ",
         "chipList": ["Flutter", "FastAPI"],
-        "img": "/portfolio/assets/projects/weatherAPP.png",
+        "img": "/portfolio/src/assets/projects/weatherAPP.png",
         "git": "https://github.com/GrzSwa/AplikacjaPogodowa",
         "live": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       },
@@ -233,7 +233,7 @@
         "name": "Ivi",
         "text": "This project is my engineering thesis, where the goal of the thesis was to design and implement a mobile application to support learning spelling. The application was created for users who want to improve their spelling skills. The app is primarily dedicated to students who need to master spelling and punctuation material in the early stages of their education. The project was implemented using React Native and Firebase technologies. In the first stage of the application's development, a complete and functional user interface was prepared, as well as a database of spelling learning materials stored in a real-time database provided by the Firebase platform. A Google account authentication tool was also implemented.",
         "chipList": ["React Native", "Firebase"],
-        "img": "/portfolio/assets/projects/ivi.png",
+        "img": "/portfolio/src/assets/projects/ivi.png",
         "git": "https://github.com/GrzSwa/Ivi",
         "live": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       }
@@ -245,17 +245,17 @@
       {
         "name": "Linkedin",
         "url": "https://www.linkedin.com/in/grzegorz-swajda-18920730b/",
-        "icon": "/portfolio/assets/icons/linkedin_rounded.svg"
+        "icon": "/portfolio/src/assets/icons/linkedin_rounded.svg"
       },
       {
         "name": "Messenger",
         "url": "https://m.me/grzesiek.swajda",
-        "icon": "/portfolio/assets/icons/messenger.svg"
+        "icon": "/portfolio/src/assets/icons/messenger.svg"
       },
       {
         "name": "Telegram",
         "url": "https://t.me/GrzegorzSwajda",
-        "icon": "/portfolio/assets/icons/telegram.svg"
+        "icon": "/portfolio/src/assets/icons/telegram.svg"
       }
     ]
   }
