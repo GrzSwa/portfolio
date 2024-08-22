@@ -11,7 +11,7 @@ const Experiance = () => {
       id="experiance"
     >
       <div className="flex flex-col w-full">
-        <HeaderSection title="Experaince" side="right" />
+        <HeaderSection title="Experiance" side="right" />
         <ExperianceBox experianceList={data.experiance} />
       </div>
     </section>
