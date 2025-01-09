@@ -162,18 +162,14 @@
     "experiance": [
       {
         "time": "August 2024 - Present",
-        "job": "Business process optimisation specialist/programmer",
-        "text": "In this position, I analyse, identify and optimise the company's business processes to increase their efficiency. I participate in projects related to the automation and optimisation of operational processes to improve the daily functioning of the organisation. I design, implement and deploy IT solutions to improve the company's operations. Additionally, I am responsible for the administration of SQL database",
+        "job": "Software engineer",
+        "text": "As a Software Engineer, I focus on analyzing and optimizing the company's business processes to enhance efficiency and productivity. My responsibilities include designing database structures and crafting SQL queries to manage and retrieve data effectively. I develop dedicated applications, such as Office add-ins, websites, and desktop applications, tailored to streamline the work of various teams and ensure seamless integration with existing systems. I actively participate in project meetings, collaborating with stakeholders to plan and implement solutions that align with business needs. My work involves conducting comprehensive integration and usability tests to guarantee the reliability and user-friendliness of the applications. Additionally, I create and maintain detailed technical and user documentation to support ongoing development and usage. Leveraging AI tools, I optimize business processes, driving innovation and delivering impactful results. My role combines technical expertise with strategic thinking to contribute to the organization's success.",
         "city": "Kielce",
         "workplace": "ZIO-MAX Sp. z o.o.",
         "chipList": [
           {
             "name": "Python",
             "color": "#0277BD"
-          },
-          {
-            "name": "FastAPI",
-            "color": "#009485"
           },
           {
             "name": "Flet",
@@ -188,6 +184,14 @@
             "color": "#000000"
           },
           {
+            "name": "JavaScript",
+            "color": "#f6de1c"
+          },
+          {
+            "name": "TailwindCSS",
+            "color": "#38bdf8"
+          },
+          {
             "name": "PostgresSQL",
             "color": "#0277BD"
           },
@@ -200,8 +204,8 @@
             "color": "#107C41"
           },
           {
-            "name": "AccessDB",
-            "color": "#A74E52"
+            "name": "Office.js",
+            "color": "#d83b01"
           },
           {
             "name": "GitHub",
@@ -248,7 +252,7 @@
     ]
   },
   "Contact": {
-    "email": "g.swajda@onet.pl",
+    "email": "g.swajda@gmail.com",
     "contact": [
       {
         "name": "Linkedin",
